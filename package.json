@@ -1,0 +1,19 @@
+{
+  "name": "imagejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-js": "^0.37.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
+  },
+  "description": ""
+}
