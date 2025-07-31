@@ -1,14 +1,8 @@
-ImageJS Feature Explorer
+## ImageJS Feature Explorer
 
 A web demo to upload an image and interactively apply Image-JS methods (filters, transforms, morphology, ROI, etc.) in your browser.
 
-Installation
-
-git clone https://github.com/your-username/imagejs-feature-explorer.git
-cd imagejs-feature-explorer
-npm install
-npm install image-js
-npm run dev
+## Installation
 
 git clone https://github.com/your-username/imagejs-feature-explorer.git
 cd imagejs-feature-explorer
@@ -18,7 +12,7 @@ npm run dev
 
 Open http://localhost:3000 in your browser.
 
-Usage
+## Usage
 
 Upload Image: Click Upload Image and select a file.
 
@@ -28,7 +22,8 @@ Enter Parameters: If prompted, supply JSON args (e.g. {"radius":2}), or leave bl
 
 View Result: The processed image appears on the canvas.
 
-Supported Features
+
+## Supported Features
 
 Filters: invert, grey, blur, gaussianBlur, median, gradient, derivative, pixelate, level
 
@@ -42,4 +37,5 @@ Operations: threshold, getHistogram, mask, extractChannel, paste, splitChannels
 
 ROI: autoCrop, fromMask, getBoundingBox, cropByROI, clearBorder, fillRoi, invertRoi, roiToMask, extractRoi, projectRoi, paintRoi, sampleRoi, smoothRoi
 
-For full API details, see the Image-JS documentation.
+
+For full API details, see the Image-JS documentation: https://image-js-docs.pages.dev/
